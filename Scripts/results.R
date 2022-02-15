@@ -28,7 +28,7 @@ cat("date interval?",
 cat("how many swabbed?",
     paste0(table(raw_df$swabbed)[2]),
     "Amongst swabbed, how many positive?",
-    table(raw_df$swaboutcome)[2],
+    table(raw_df$swaboutcome)[3],
     sep = "\n")
 
 
